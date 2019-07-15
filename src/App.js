@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Counter } from './components/counter';
+import ComponentWithConnectionToRedux from './containers/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Counter></Counter>
+      <ComponentWithConnectionToRedux></ComponentWithConnectionToRedux>
     </div>
   );
 }
